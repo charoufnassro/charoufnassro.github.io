@@ -8,6 +8,7 @@
     background-image: linear-gradient(#ff0000,#ba2ef1);
     position: relative;
     height: 100vh;
+    Width: 100vw;
     overflow: hidden;
     font-family: sans-serif;
 }
@@ -18,7 +19,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: calc(100vw - 1em);
+    font-size: calc(100% - 1em);
     z-index: 1;
 }
 
